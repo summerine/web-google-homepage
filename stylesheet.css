@@ -1,0 +1,89 @@
+
+.nav-bar li {
+	display: inline;
+	margin: 2px 5px 0px;
+	float: right;
+}
+
+.nav-bar li a{
+	text-decoration: none;
+}
+
+.nav-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#signinbutton {
+	height: 30px;
+	width: 70px;
+	background-color: rgb(0, 0, 255);
+	margin: 2px 5px 0px;
+	border-radius: 4px;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	padding: 50px;
+	margin: 20px;
+}
+
+.search-bar {
+	position: relative;
+}
+
+.search-bar input {
+	width: 600px;
+	height: 40px;
+	margin: 10px 0;
+}
+
+.button {
+
+}
+
+#searchbutton {
+	height: 30px;
+	width: 120px;
+	color: ;
+	font-size: 10pt;
+	background-color: ;
+	margin: 30px 5px 0px 10px;
+}
+
+#luckybutton {
+	height: 30px;
+	width: 120px;
+	font-size: 10pt;
+	color: ;
+	background-color: ;
+	margin: 30px 5px 0px 10px;
+}
+
+.language ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.language li {
+	display: inline;
+}
+
+.language li a {
+	text-decoration: none;
+	text-decoration-color: blue;
+}
+
+.footer {
+	position: fixed;
+	display: inline-block;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: black;
+}
