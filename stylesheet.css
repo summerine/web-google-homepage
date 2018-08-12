@@ -1,12 +1,16 @@
 
 .nav-bar li {
 	display: inline;
-	margin: 2px 5px 0px;
+	margin: 10px 10px 0px;
 	float: right;
 }
 
 .nav-bar li a{
 	text-decoration: none;
+}
+
+.nav-bar li a:hover {
+	text-decoration: underline;
 }
 
 .nav-bar ul{
@@ -19,16 +23,19 @@
 #signinbutton {
 	height: 30px;
 	width: 70px;
-	background-color: rgb(0, 0, 255);
-	margin: 2px 5px 0px;
-	border-radius: 4px;
+	background-color: #4285f4;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 2px;
+	margin-right: 10px;
+	border: none;
+
 }
 
 .container {
 	position: relative;
 	text-align: center;
-	padding: 50px;
-	margin: 20px;
+	margin: 150px auto;
 }
 
 .search-bar {
@@ -38,52 +45,68 @@
 .search-bar input {
 	width: 600px;
 	height: 40px;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 .button {
-
+	display: inline;
+	position: relative;
 }
 
 #searchbutton {
-	height: 30px;
-	width: 120px;
-	color: ;
-	font-size: 10pt;
-	background-color: ;
-	margin: 30px 5px 0px 10px;
+	width: 130px;
+	height: 40px;
 }
 
 #luckybutton {
-	height: 30px;
 	width: 120px;
-	font-size: 10pt;
-	color: ;
-	background-color: ;
-	margin: 30px 5px 0px 10px;
+	height: 40px;
+
 }
 
-.language ul {
-	list-style-type: none;
-	overflow: hidden;
-	padding: 10px 0;
+.language {
+	margin-top: 30px;
 }
 
-.language li {
+.language p {
 	display: inline;
+	position: relative;
+	margin-right: 10px;
+	font-size: 14px;
 }
 
-.language li a {
+.language a {
 	text-decoration: none;
-	text-decoration-color: blue;
+	color: rgb(0, 0, 255);
+}
+
+.language a:hover {
+	text-decoration: underline;
 }
 
 .footer {
 	position: fixed;
-	display: inline-block;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: grey;
+	background-color: #DCDCDC;
+	list-style-type: none;
+	display: inline-block;
 	color: black;
 }
+
+.footer p:hover {
+	text-decoration: underline;
+}
+
+.right p {
+	float: right;
+	margin-right: 20px;
+}
+
+.left p{
+	float: left;
+	margin-left: 20px;
+}
+
+
