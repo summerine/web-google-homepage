@@ -68,11 +68,17 @@
 	margin-top: 30px;
 }
 
-.language p {
+.language ul {
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.language li {
 	display: inline;
 	position: relative;
-	margin-right: 10px;
-	font-size: 14px;
+	padding-right: 2px;
+	margin-right: 20px;
+	margin-left: 2px;
 }
 
 .language a {
@@ -95,16 +101,22 @@
 	color: black;
 }
 
-.footer p:hover {
+.footer ul {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.footer li:hover {
 	text-decoration: underline;
 }
 
-.right p {
+.right li {
 	float: right;
 	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
-.left p{
+.left li{
 	float: left;
 	margin-left: 20px;
 }
