@@ -25,15 +25,27 @@
 	width: 70px;
 	background-color: #4285f4;
 	font-weight: bold;
+<<<<<<< HEAD
 	margin-bottom: 2px;
 	margin-right: 10px;
 	border: none;
 
+=======
+	margin-top: 1px;
+	margin-bottom:1px;
+	margin-right: 10px;
+	border: none;
+>>>>>>> 14731d9b4f0a4fa03efd5d0997ac1ea02d39243a
 }
 
 #signinbutton a{
 	color:#ffffff;
+<<<<<<< HEAD
 }
+=======
+
+
+>>>>>>> 14731d9b4f0a4fa03efd5d0997ac1ea02d39243a
 
 .container {
 	position: relative;
@@ -52,9 +64,16 @@
 }
 
 .button {
+<<<<<<< HEAD
 	display: inline;
 	position: relative;
 }
+=======
+	font-family: arial;
+	display: inline;
+	position: relative;
+
+>>>>>>> 14731d9b4f0a4fa03efd5d0997ac1ea02d39243a
 
 #searchbutton {
 	width: 130px;
@@ -73,6 +92,7 @@
 
 .language ul {
 	list-style-type: none;
+<<<<<<< HEAD
 	font-size: 14px;
 }
 
@@ -82,6 +102,20 @@
 	text-align: center;
 	word-spacing: 2px;
 	padding-right: 15px;
+=======
+
+	font-size: 14px;
+
+	font-family: arial;
+
+
+.language .li {
+	display: inline;
+	position: relative;
+	padding-right: 2px;
+	margin-right: 20px;
+	margin-left: 2px;
+>>>>>>> 14731d9b4f0a4fa03efd5d0997ac1ea02d39243a
 }
 
 .language a {
@@ -93,7 +127,14 @@
 	text-decoration: underline;
 }
 
+<<<<<<< HEAD
 .footer {
+=======
+
+#footer {
+	font-family: arial;
+	font-size: 13px;
+>>>>>>> 14731d9b4f0a4fa03efd5d0997ac1ea02d39243a
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -105,11 +146,24 @@
 }
 
 .footer ul {
+<<<<<<< HEAD
+=======
+
+	color: rgba(0,0,0,0.54);
+}
+
+#footer ul {
+>>>>>>> 14731d9b4f0a4fa03efd5d0997ac1ea02d39243a
 	list-style-type: none;
 	margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .footer li:hover {
+=======
+
+#footer li:hover {
+>>>>>>> 14731d9b4f0a4fa03efd5d0997ac1ea02d39243a
 	text-decoration: underline;
 }
 
@@ -125,3 +179,7 @@
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 14731d9b4f0a4fa03efd5d0997ac1ea02d39243a
