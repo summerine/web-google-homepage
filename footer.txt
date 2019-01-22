@@ -1,0 +1,41 @@
+#footer {
+	font-family: arial;
+	font-size: 13px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #DCDCDC;
+	list-style-type: none;
+	display: inline-block;
+	color: black;
+}
+
+#footer ul {
+	color: rgba(0,0,0,0.54);
+}
+
+#footer ul {
+
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+#footer li:hover {
+
+	text-decoration: underline;
+}
+
+.right li {
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.left li{
+	float: left;
+	margin-left: 20px;
+}
+
+
+
